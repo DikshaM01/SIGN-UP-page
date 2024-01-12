@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    background-image: url('https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+     width:100%;
+     height:100%;
+     background-size: cover;
+
+}
+#heading{
+    position:absolute;
+    width:100%;
+    padding:20px 30px;
+    display: flex;
+    justify-content:space-between ;
+}
+#heading #signing{
+  
+   display: flex;
+   justify-content: space-between;
+   margin-left: 5px;
+   margin-right:10px;
+   margin-top:5px;
+   margin-bottom: 5px;
+}
+#first{
+    font-family: cursive;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    
+}
+#signing{
+    font-family: cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+}
+#f{
+opacity:20%;
+}
+#s{
+
+text-decoration:underline ;
+}
+#logsign{
+    margin-top:110px;
+    width:54%;
+    height:75%;
+    background-color:transparent;
+    border:2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    position:absolute;
+    margin-left:370px;
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+}
+#logg{
+    position:relative;
+   
+}
+#formm{
+    position: absolute;
+    
+    margin-top:90px;
+    margin-left:200px;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+#formm label{
+    color:black;
+    font-size: large;
+    gap:20px;
+    margin-bottom: 20px;
+}
+#formm input{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    background: transparent;
+    border:1px solid black;
+    color:darkslategray;
+    outline:none;
+    transition: border-color 0.3s;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+#formm ::placeholder{
+    font-family: cursive;
+    color:white;
+}
+#formm input:focus{
+    border-color:skyblue;
+}
+button{
+    font-family: cursive;
+    width:100px;
+    margin-left: 300px;
+    height:35px;
+   font-size:20px;
+   color:blueviolet;
+   cursor: alias;
+   border-radius: 10px;
+}
+#logsign #formm label,
+#logsign #formm input{
+    color:black;
+    border-color: black;
+}
+#enter{
+    
+    -webkit-text-stroke-color:black ;
+    -webkit-text-stroke-width: 5px;
+}
+#t{
+ margin-top:33px;
+ margin-left:25px;
+ 
+}
+#t a{
+    text-decoration: none;
+}
+#t a:hover{
+    text-decoration: underline;
+}
+#remember input{
+    display:flex;
+    width:25px;
+ 
+}
